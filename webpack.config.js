@@ -20,6 +20,7 @@ const plugins = [
     filename: 'remoteEntry.js',
     exposes: {
       './Button': './src/components/button.js',
+      './HomeView': './src/views/home-view.js',
       './SearchView': './src/views/search-view.js',
       './WorkspacesView': './src/views/workspaces-view.js',
     },

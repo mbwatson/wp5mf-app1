@@ -20,6 +20,8 @@ const plugins = [
     filename: 'remoteEntry.js',
     exposes: {
       './Button': './src/components/button.js',
+      './SearchView': './src/views/search-view.js',
+      './WorkspacesView': './src/views/workspaces-view.js',
     },
     shared: ['react', 'react-dom'],
   }),

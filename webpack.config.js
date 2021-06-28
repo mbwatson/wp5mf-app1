@@ -42,7 +42,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: 'images/[hash][ext][query]',
-    publicPath: 'http://localhost:8081/',
+    publicPath: 'https://wp5mf-app1.netlify.app/',
   },
 
   module: {
